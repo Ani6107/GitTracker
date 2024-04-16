@@ -1,0 +1,158 @@
+*{
+	margin:0;
+	padding: 0;
+
+}
+li{
+	list-style: none;
+}
+#navbar a {
+	color: white;
+}
+#navbar{
+	color: white;
+	background-color: black;
+	height: 45px;
+	font-size: 27px;
+	display: flex;
+	align-items: center;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*margin-top: 40px;*/
+	/*margin-left: 50px;*/
+}
+.box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*height: 400px;
+	width: 400px;*/
+}
+.input{
+	height: 25px;
+	width: 290px;
+	}
+.btn{
+	margin-top: 15px;
+	height: 35px;
+	padding: 6px;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+}
+.btn:hover{
+	background-color: brown;
+	cursor: pointer;
+}
+.output{
+	height: 400px;
+	width: 600px;
+	margin-left: 300px;
+	margin-top: 100px;
+}
+.profile-img{
+	display: inline-block;
+	height: 200px;
+	margin-right:20px;
+	border-radius: 60%;
+}
+.name{
+	font-weight: 200;
+	font-size: 35px;
+	text-align: center;
+}
+.error-img{
+	height: 200px;
+	margin-top:15px;
+	margin-left: 200px;
+	border-radius: 60%;
+}
+.arrow{
+	font-size: 80px;
+
+}
+.arrow:hover{
+	background-color: black;
+	color: white;
+}
+.card{
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.parent{	
+	display: flex;
+	align-items: center;
+}
+.square{
+	height: 80px;
+	width: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: black;
+	color: white;
+	font-weight: 400;
+	margin-right: 2px;
+}
+.container{
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer{
+	font-size: 20px;
+	font-weight: 300;
+}
+.icon{
+	font-size: 35px;
+	margin-right: 8px;
+}
+@media (max-width: 480px){
+	.box{
+		margin-top: 25px;
+	}
+	.main{
+		display: flex;
+		flex-direction: column;
+	}
+	.output{
+		height: 400px;
+		width: 300px;
+		margin-right: 300px;
+		margin-top: 12px;
+		margin-bottom: 3px;
+	}
+	.parent{
+		display: flex;
+		flex-direction: column;
+	}
+	.profile-img{
+		height: 150px;
+		margin-right:15px;
+		border-radius: 60%;
+
+	}
+	.square{
+		height: 50px;
+	    width: 90px;
+	    margin-bottom: 4px;
+	    background-color: brown;
+	}
+	.error-img{
+		height: 200px;
+		margin-top:15px;
+		margin-left: 50px;
+		border-radius: 60%;
+	}
+	.container{
+		margin-top: 80px;
+	}
+
+}
